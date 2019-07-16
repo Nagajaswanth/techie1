@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+
+<style>
+body {
+  font-family:  sans-serif;
+}
+div.head1 {
+background-color: dodgerblue;
+ 
+padding-left:20px;
+padding-top:15px;
+padding-bottom:15px;
+  font-size: 30px;
+  color: white;
+ 
+  
+  font-family: century gothic;
+  font-weight:lighter;
+  
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 3px 12px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: century gothic;
+}
+
+.home {background-color: black;} 
+.home:hover {background-color: red;}
+
+.services {background-color: black;} 
+.services:hover {background: blue;}
+
+.careers {background-color: black;} 
+.careers:hover {background: green;}
+
+.contact {background-color: black;} 
+.contact:hover {background: orange;}
+
+
+div.c1{
+background-color: black;
+family-font: verdana;
+height:32px;
+
+
+}
+div.c2{
+margin:20px 30px 25px 45px;
+border-style:solid;
+font-family: century gothic;
+border-width:1px;
+width:70%;
+font-weight:bold;
+
+}
+div.c3{
+margin:45px;
+}
+ul {
+  list-style-type: none;
+  
+  padding-left: 2em;
+}
+
+ul li:before {
+  content: "-";
+  position: absolute;
+
+  margin-left: -1em;
+}
+
+top: 2px;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<div class=head1>
+  TECHNOVERT
+</div>
+<div class=c1>
+
+<button class="btn home">&nbsp&nbspHOME</button>
+<button class="btn services">SERVICES</button>
+<button class="btn careers">CAREERS</button>
+<button class="btn contact">CONTACT</button>
+<img style= "padding:3px 20px 0px 0px" align="right"  src="blog-icon.png">
+</div>
+<div class=c2>
+<h3 style=margin:8px;>NEWS</h3>
+<ul>
+<li>Technovert is now Microsoft partner in Information Security Solutions</li>
+<br>
+<li>We deliver one of the largest book information stores in the world</li>
+<br>
+<li>Our team delivered the first windows 8 metro style application for the Windows Phone group at Microsoft</li>
+<br>
+<li>Technovert partners with a strategic technology CTO group</li>
+<br>
+</div>
+<div class=c3>
+<h3>Welcome!</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat ornare dui vel euismod. Mauris dignissim consectetur nunc vitae lobortis. Sed dictum odio vel feugiat malesuada. Fusce luctus rhoncus condimentum. Ut mollis ipsum ut neque lacinia mattis. Duis vitae sollicitudin orci. Maecenas sapien nisi, feugiat eget erat id, convallis semper orci. Vestibulum id ex ante. Integer placerat efficitur justo, porttitor ultrices nulla aliquam non. Vivamus suscipit molestie odio, quis pretium justo dictum sed. Morbi ornare in nulla condimentum elementum. Cras id ornare dolor. Proin in ipsum eu tellus ultricies malesuada a at mi. Suspendisse dui nisi, facilisis a accumsan et, semper et tortor.</p>
+
+<p>Suspendisse consectetur, augue in pellentesque viverra, diam urna dictum tortor, et facilisis elit eros vel est. Quisque feugiat fermentum dapibus. Ut luctus augue eu placerat consectetur. Vestibulum magna justo, varius ut nisl id, pharetra volutpat leo. Aliquam erat volutpat. In pulvinar euismod nisl, sed hendrerit augue suscipit eu. Suspendisse efficitur dolor lacus, vitae sodales tortor varius non. Nam egestas mollis libero, vitae elementum nulla dapibus eu. Duis facilisis sit amet turpis in hendrerit. Nunc eu arcu et justo lacinia facilisis quis nec quam. Nunc nec tristique nulla.</p>
+
+<p>Quisque placerat mauris ac lacus fringilla congue et vitae erat. Ut et varius orci. Cras fringilla libero at auctor dictum. Curabitur non pellentesque sapien. Curabitur porta, nisl non cursus fermentum, mi nulla rutrum nisl, at lacinia odio felis eget nisl. Mauris facilisis augue id erat lacinia, vel venenatis augue dapibus. Donec ullamcorper, tortor sit amet condimentum faucibus, tortor nisl iaculis sem, ut facilisis ligula leo nec tellus. Ut id nisl id leo pulvinar iaculis tempor vitae purus. Sed viverra ornare vulputate. Maecenas scelerisque nisl urna, sed egestas lectus condimentum eget.</p>
+
+
+
+</body>
+</html>
